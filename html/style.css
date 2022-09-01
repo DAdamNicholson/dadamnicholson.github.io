@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* background color */
+body 
+{
+    background-color: #FAFAF9;
+}
+
+a:hover
+{
+        color: #BA021B;
+}
+
+a.l:hover
+{
+        color: #0072b1;
+}
+
+/* navigation bar options */
+.main-nav
+{
+    text-align: center;
+    background-color: #000000;
+}
+
+.main-nav li
+{
+    list-style: none;
+    display: inline-block;
+}
+
+.main-nav li a
+{
+        color: #FFFFFF ;
+        text-decoration: none;
+        font-family: 'roboto-condensed', sans-serif;
+        font-size: 16px;
+        opacity: .9;
+        padding: 0px 15px;
+}
+
+.main-nav li a:hover
+{
+        color: #FFED67;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+
+box {
+  display: flex;
+  align-items: center;
+}
+
+/* Body Style */
+
+h1.name {
+  font-family: 'roboto-condensed', sans-serif;
+  font-size: 36px;
+  font-weight: 350;
+  opacity: .9;
+  text-align: center;
+  width:100%;
+  letter-spacing: 0.1em;
+  padding: 0px 0px 0px 0px;
+  color: black;
+}
+
+h1.body {
+    font-family: 'roboto-condensed', sans-serif;
+    font-size: 18px;
+    padding: 0px 0px 0px 0px;
+    color: white;
+  }
+
+h1.logo {
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 24px;
+    padding: 0px 0px 10px 0px;
+    color: white;
+  }
+
+h2.head {
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 20px;
+    color: black;
+  }
+
+h3 {
+    font-family: 'roboto-condensed', sans-serif;
+    font-size: 18px;
+    color: black;
+  }
+
+p {
+  font-family: 'roboto-condensed', sans-serif;
+ /* text-indent: 20px;*/
+}
+
+/* Wrapper Style */
+.wrapper {
+    margin: 0 auto; 
+    padding: 10px 10px 10px;
+}
+
+
+/* Clear floats after the columns */
+/*
+.wrapper:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+*/
+
+.btn {
+    border: 2px solid black;
+    background-color: white;
+    text-align: center;
+    width: 80%;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    left: 10%;
+  }
+  
+  .success {
+    border-color: black;
+    color: black;
+  }
+
+  .success:hover {
+    background-color: black;
+    border-color: black;
+    color: white;
+  }
+
+/* Responsive layout */
+/* helpful link: https://www.youtube.com/watch?v=ZYV6dYtz4HA&list=PL0eyrZgxdwhwNC5ppZo_dYGVjerQY3xYU&index=18 */
+@media only screen and (min-width:768px) {
+    h1.name {
+        padding: 20px 0px 15px 0px;
+      }
+    
+    .wrapper {
+        padding: 20px 50px;
+        width: 768px; 
+    }
+
+    .img-me{
+        float: right;
+        max-width: 250px;
+        margin-right: 0px;
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .wrapper {
+        width: 900;
+    }
+
+}
+
+/* Subpage styles */
+
+h3.page-heading {
+    font-family: 'Oxygen', sans-serif;
+    opacity: .8;
+    text-align: left;
+    width:100%;
+    padding: 10px 0px 10px;
+    color: black;
+  }
+
+h4 {
+    font-family: 'Oxygen', sans-serif;
+    opacity: .8;
+    text-align: left;
+    width:100%;
+    padding: 10px 0px 0px 0px;
+    color: black;
+}
