@@ -24,6 +24,7 @@ a.l:hover
 {
     text-align: center;
     background-color: #000000;
+    style=width: 100%;
 }
 
 .main-nav li
