@@ -191,3 +191,12 @@ h4 {
     padding: 10px 0px 0px 0px;
     color: black;
 }
+
+
+ul {
+    font-family: 'roboto-condensed', sans-serif;
+    font-size: 14px;
+    color: black;
+    padding: 5px;
+    margin-left: 40px;
+  }
